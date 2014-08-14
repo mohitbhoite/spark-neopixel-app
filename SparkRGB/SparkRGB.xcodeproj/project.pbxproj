@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D44EFDE198EF64900C65BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44EFDD198EF64900C65BA5 /* Foundation.framework */; };
+		2D44EFE0198EF64900C65BA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44EFDF198EF64900C65BA5 /* CoreGraphics.framework */; };
+		2D44EFE2198EF64900C65BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44EFE1198EF64900C65BA5 /* UIKit.framework */; };
+		2D44EFE8198EF64900C65BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D44EFE6198EF64900C65BA5 /* InfoPlist.strings */; };
+		2D44EFEA198EF64900C65BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44EFE9198EF64900C65BA5 /* main.m */; };
+		2D44EFEE198EF64900C65BA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44EFED198EF64900C65BA5 /* AppDelegate.m */; };
+		2D44EFF1198EF64900C65BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D44EFEF198EF64900C65BA5 /* Main.storyboard */; };
+		2D44EFF4198EF64900C65BA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44EFF3198EF64900C65BA5 /* ViewController.m */; };
+		2D44EFF6198EF64900C65BA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D44EFF5198EF64900C65BA5 /* Images.xcassets */; };
+		2D44EFFD198EF64900C65BA5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44EFFC198EF64900C65BA5 /* XCTest.framework */; };
+		2D44EFFE198EF64900C65BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44EFDD198EF64900C65BA5 /* Foundation.framework */; };
+		2D44EFFF198EF64900C65BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44EFE1198EF64900C65BA5 /* UIKit.framework */; };
+		2D44F007198EF64900C65BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D44F005198EF64900C65BA5 /* InfoPlist.strings */; };
+		2D44F009198EF64900C65BA5 /* SparkRGBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44F008198EF64900C65BA5 /* SparkRGBTests.m */; };
+		2D44F015198EF7F000C65BA5 /* VBColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D44F012198EF7F000C65BA5 /* VBColorPicker.m */; };
+		2D44F016198EF7F000C65BA5 /* colorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D44F013198EF7F000C65BA5 /* colorWheel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D44F000198EF64900C65BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D44EFD2198EF64900C65BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D44EFD9198EF64900C65BA5;
+			remoteInfo = SparkRGB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D44EFDA198EF64900C65BA5 /* SparkRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D44EFDD198EF64900C65BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D44EFDF198EF64900C65BA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D44EFE1198EF64900C65BA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D44EFE5198EF64900C65BA5 /* SparkRGB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparkRGB-Info.plist"; sourceTree = "<group>"; };
+		2D44EFE7198EF64900C65BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D44EFE9198EF64900C65BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D44EFEB198EF64900C65BA5 /* SparkRGB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparkRGB-Prefix.pch"; sourceTree = "<group>"; };
+		2D44EFEC198EF64900C65BA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D44EFED198EF64900C65BA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D44EFF0198EF64900C65BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D44EFF2198EF64900C65BA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D44EFF3198EF64900C65BA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D44EFF5198EF64900C65BA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D44EFFB198EF64900C65BA5 /* SparkRGBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkRGBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D44EFFC198EF64900C65BA5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2D44F004198EF64900C65BA5 /* SparkRGBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparkRGBTests-Info.plist"; sourceTree = "<group>"; };
+		2D44F006198EF64900C65BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D44F008198EF64900C65BA5 /* SparkRGBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparkRGBTests.m; sourceTree = "<group>"; };
+		2D44F012198EF7F000C65BA5 /* VBColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBColorPicker.m; path = SparkRGB/VBColorPicker.m; sourceTree = "<group>"; };
+		2D44F013198EF7F000C65BA5 /* colorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorWheel.png; path = SparkRGB/colorWheel.png; sourceTree = "<group>"; };
+		2D44F014198EF7F000C65BA5 /* VBColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBColorPicker.h; path = SparkRGB/VBColorPicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D44EFD7198EF64900C65BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44EFE0198EF64900C65BA5 /* CoreGraphics.framework in Frameworks */,
+				2D44EFE2198EF64900C65BA5 /* UIKit.framework in Frameworks */,
+				2D44EFDE198EF64900C65BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D44EFF8198EF64900C65BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44EFFD198EF64900C65BA5 /* XCTest.framework in Frameworks */,
+				2D44EFFF198EF64900C65BA5 /* UIKit.framework in Frameworks */,
+				2D44EFFE198EF64900C65BA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D44EFD1198EF64900C65BA5 = {
+			isa = PBXGroup;
+			children = (
+				2D44F012198EF7F000C65BA5 /* VBColorPicker.m */,
+				2D44F013198EF7F000C65BA5 /* colorWheel.png */,
+				2D44F014198EF7F000C65BA5 /* VBColorPicker.h */,
+				2D44EFE3198EF64900C65BA5 /* SparkRGB */,
+				2D44F002198EF64900C65BA5 /* SparkRGBTests */,
+				2D44EFDC198EF64900C65BA5 /* Frameworks */,
+				2D44EFDB198EF64900C65BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D44EFDB198EF64900C65BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D44EFDA198EF64900C65BA5 /* SparkRGB.app */,
+				2D44EFFB198EF64900C65BA5 /* SparkRGBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D44EFDC198EF64900C65BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D44EFDD198EF64900C65BA5 /* Foundation.framework */,
+				2D44EFDF198EF64900C65BA5 /* CoreGraphics.framework */,
+				2D44EFE1198EF64900C65BA5 /* UIKit.framework */,
+				2D44EFFC198EF64900C65BA5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D44EFE3198EF64900C65BA5 /* SparkRGB */ = {
+			isa = PBXGroup;
+			children = (
+				2D44EFEC198EF64900C65BA5 /* AppDelegate.h */,
+				2D44EFED198EF64900C65BA5 /* AppDelegate.m */,
+				2D44EFEF198EF64900C65BA5 /* Main.storyboard */,
+				2D44EFF2198EF64900C65BA5 /* ViewController.h */,
+				2D44EFF3198EF64900C65BA5 /* ViewController.m */,
+				2D44EFF5198EF64900C65BA5 /* Images.xcassets */,
+				2D44EFE4198EF64900C65BA5 /* Supporting Files */,
+			);
+			path = SparkRGB;
+			sourceTree = "<group>";
+		};
+		2D44EFE4198EF64900C65BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D44EFE5198EF64900C65BA5 /* SparkRGB-Info.plist */,
+				2D44EFE6198EF64900C65BA5 /* InfoPlist.strings */,
+				2D44EFE9198EF64900C65BA5 /* main.m */,
+				2D44EFEB198EF64900C65BA5 /* SparkRGB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D44F002198EF64900C65BA5 /* SparkRGBTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D44F008198EF64900C65BA5 /* SparkRGBTests.m */,
+				2D44F003198EF64900C65BA5 /* Supporting Files */,
+			);
+			path = SparkRGBTests;
+			sourceTree = "<group>";
+		};
+		2D44F003198EF64900C65BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D44F004198EF64900C65BA5 /* SparkRGBTests-Info.plist */,
+				2D44F005198EF64900C65BA5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D44EFD9198EF64900C65BA5 /* SparkRGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D44F00C198EF64900C65BA5 /* Build configuration list for PBXNativeTarget "SparkRGB" */;
+			buildPhases = (
+				2D44EFD6198EF64900C65BA5 /* Sources */,
+				2D44EFD7198EF64900C65BA5 /* Frameworks */,
+				2D44EFD8198EF64900C65BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkRGB;
+			productName = SparkRGB;
+			productReference = 2D44EFDA198EF64900C65BA5 /* SparkRGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D44EFFA198EF64900C65BA5 /* SparkRGBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D44F00F198EF64900C65BA5 /* Build configuration list for PBXNativeTarget "SparkRGBTests" */;
+			buildPhases = (
+				2D44EFF7198EF64900C65BA5 /* Sources */,
+				2D44EFF8198EF64900C65BA5 /* Frameworks */,
+				2D44EFF9198EF64900C65BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D44F001198EF64900C65BA5 /* PBXTargetDependency */,
+			);
+			name = SparkRGBTests;
+			productName = SparkRGBTests;
+			productReference = 2D44EFFB198EF64900C65BA5 /* SparkRGBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D44EFD2198EF64900C65BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					2D44EFFA198EF64900C65BA5 = {
+						TestTargetID = 2D44EFD9198EF64900C65BA5;
+					};
+				};
+			};
+			buildConfigurationList = 2D44EFD5198EF64900C65BA5 /* Build configuration list for PBXProject "SparkRGB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D44EFD1198EF64900C65BA5;
+			productRefGroup = 2D44EFDB198EF64900C65BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D44EFD9198EF64900C65BA5 /* SparkRGB */,
+				2D44EFFA198EF64900C65BA5 /* SparkRGBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D44EFD8198EF64900C65BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44EFF6198EF64900C65BA5 /* Images.xcassets in Resources */,
+				2D44F016198EF7F000C65BA5 /* colorWheel.png in Resources */,
+				2D44EFE8198EF64900C65BA5 /* InfoPlist.strings in Resources */,
+				2D44EFF1198EF64900C65BA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D44EFF9198EF64900C65BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44F007198EF64900C65BA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D44EFD6198EF64900C65BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44EFF4198EF64900C65BA5 /* ViewController.m in Sources */,
+				2D44EFEE198EF64900C65BA5 /* AppDelegate.m in Sources */,
+				2D44EFEA198EF64900C65BA5 /* main.m in Sources */,
+				2D44F015198EF7F000C65BA5 /* VBColorPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D44EFF7198EF64900C65BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44F009198EF64900C65BA5 /* SparkRGBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D44F001198EF64900C65BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D44EFD9198EF64900C65BA5 /* SparkRGB */;
+			targetProxy = 2D44F000198EF64900C65BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D44EFE6198EF64900C65BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D44EFE7198EF64900C65BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D44EFEF198EF64900C65BA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D44EFF0198EF64900C65BA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D44F005198EF64900C65BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D44F006198EF64900C65BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D44F00A198EF64900C65BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D44F00B198EF64900C65BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D44F00D198EF64900C65BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkRGB/SparkRGB-Prefix.pch";
+				INFOPLIST_FILE = "SparkRGB/SparkRGB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D44F00E198EF64900C65BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkRGB/SparkRGB-Prefix.pch";
+				INFOPLIST_FILE = "SparkRGB/SparkRGB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D44F010198EF64900C65BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SparkRGB.app/SparkRGB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkRGB/SparkRGB-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SparkRGBTests/SparkRGBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2D44F011198EF64900C65BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SparkRGB.app/SparkRGB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkRGB/SparkRGB-Prefix.pch";
+				INFOPLIST_FILE = "SparkRGBTests/SparkRGBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D44EFD5198EF64900C65BA5 /* Build configuration list for PBXProject "SparkRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D44F00A198EF64900C65BA5 /* Debug */,
+				2D44F00B198EF64900C65BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D44F00C198EF64900C65BA5 /* Build configuration list for PBXNativeTarget "SparkRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D44F00D198EF64900C65BA5 /* Debug */,
+				2D44F00E198EF64900C65BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D44F00F198EF64900C65BA5 /* Build configuration list for PBXNativeTarget "SparkRGBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D44F010198EF64900C65BA5 /* Debug */,
+				2D44F011198EF64900C65BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D44EFD2198EF64900C65BA5 /* Project object */;
+}
